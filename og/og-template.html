@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>OG 이미지 원본 (1200×630)</title>
+<!-- 이 파일을 고친 뒤 아래 명령(프로젝트 폴더에서 실행)으로 og-image.png 를 다시 만들어요.
+     "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,630 --virtual-time-budget=8000 --screenshot="%CD%\og-image.png" "file:///%CD:\=/%/og/og-template.html"
+-->
+
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    font-family: 'Noto Sans KR', sans-serif; color: #3a2617;
+    background:
+      radial-gradient(circle at 8% 12%, #ffe3d3 0, transparent 38%),
+      radial-gradient(circle at 92% 95%, #d9f2df 0, transparent 40%),
+      #fdf6ea;
+    position: relative;
+  }
+  /* 은은한 모눈 */
+  body::before { content: ''; position: absolute; inset: 0;
+    background-image: linear-gradient(#efe2cc 1px, transparent 1px), linear-gradient(90deg, #efe2cc 1px, transparent 1px);
+    background-size: 30px 30px; opacity: .45; }
+  .wrap { position: relative; display: flex; height: 100%; padding: 56px 60px; gap: 40px; }
+  .left { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .badge { align-self: flex-start; font-weight: 700; font-size: 22px; color: #8a5a2f; background: #fff;
+    border: 2px solid #ecd5b3; border-radius: 999px; padding: 8px 20px; }
+  .title { display: flex; align-items: center; gap: 18px; margin-top: 22px; }
+  .title svg { width: 104px; height: 104px; flex-shrink: 0; }
+  h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 74px; line-height: 1.05; color: #6d4626; letter-spacing: -1px; }
+  h1 em { font-style: normal; color: #d9473f; }
+  .sub { margin-top: 20px; font-size: 29px; font-weight: 500; line-height: 1.45; color: #5a3a20; }
+  .sub b { color: #a8703c; }
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+  .chip { font-size: 20px; font-weight: 700; padding: 9px 16px; border-radius: 14px; border: 2px solid; }
+  .c1 { background: #fff3d9; border-color: #ecc25a; color: #8a5a2f; }
+  .c2 { background: #fdebe7; border-color: #f0b3aa; color: #c2413a; }
+  .c3 { background: #e4f1fd; border-color: #9fcdf5; color: #2f76c0; }
+  .c4 { background: #e3f6e8; border-color: #9fdcb0; color: #2f8f4f; }
+  .right { width: 430px; position: relative; display: flex; align-items: center; }
+  .board { width: 430px; background: #fff; border-radius: 28px; border: 3px solid #f1e3cf;
+    box-shadow: 0 8px 0 #ecd5b3, 0 18px 40px rgba(106,70,38,.15); padding: 20px 20px 16px; }
+  .eq { text-align: left; padding-left: 14px; font-family: KaTeX_Main, 'Times New Roman', serif; font-size: 34px; color: #3a2617; margin-bottom: 8px; }
+  .eq i { font-family: KaTeX_Math, 'Times New Roman', serif; }
+  .eq sup { font-size: .6em; }
+  .steps { display: flex; justify-content: space-between; margin-top: 12px; }
+  .steps span { font-family: 'Jua', sans-serif; font-size: 17px; color: #fff; background: #a8703c; border-radius: 999px; padding: 4px 10px; }
+  .steps span:nth-child(n+4) { background: #c8915a; }
+  .stamp { position: absolute; right: -34px; top: -30px; width: 124px; height: 124px; transform: rotate(8deg); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="left">
+    <div class="badge">중학교 3학년 수학 · 이차함수와 그래프</div>
+    <div class="title">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <path d="M40 54c12 0 20-8 20-20 0-9-6-17-14-17-6 0-10 4-10 9 0 4 3 7 7 7 3 0 5-2 5-5" fill="#c98a4e" stroke="#8a5a2f" stroke-width="2" stroke-linecap="round"/>
+        <path d="M46 26c4 1 7 5 7 9" fill="none" stroke="#e7b17a" stroke-width="3" stroke-linecap="round"/>
+        <ellipse cx="27" cy="44" rx="13" ry="13" fill="#c98a4e"/>
+        <ellipse cx="27" cy="47" rx="8" ry="8.5" fill="#f6dfc0"/>
+        <path d="M15 14l3-8 5 7z" fill="#a8703c"/><path d="M17 12l1.5-3.5 2.4 3.2z" fill="#f2b9a0"/>
+        <circle cx="24" cy="24" r="12" fill="#c98a4e"/>
+        <ellipse cx="17.5" cy="28" rx="4" ry="3.2" fill="#f6dfc0"/>
+        <circle cx="22" cy="21.5" r="2.4" fill="#3a2617"/><circle cx="22.8" cy="20.7" r=".8" fill="#fff"/>
+        <circle cx="13.6" cy="26.2" r="1.6" fill="#3a2617"/>
+        <ellipse cx="25" cy="27.5" rx="2.6" ry="1.6" fill="#f2a3a0" opacity=".8"/>
+        <g transform="translate(19 42)">
+          <path d="M1 6h14c0 5.5-3.5 9.5-7 10.5C4.5 15.5 1 11.5 1 6z" fill="#e8b874"/>
+          <path d="M0 6.5C0 3.5 3.6 1.5 8 1.5s8 2 8 5c0 .6-.4 1-1 1H1c-.6 0-1-.4-1-1z" fill="#8a5a2f"/>
+        </g>
+        <ellipse cx="18.5" cy="46" rx="3.6" ry="2.6" fill="#a8703c"/><ellipse cx="35.5" cy="46" rx="3.6" ry="2.6" fill="#a8703c"/>
+      </svg>
+      <h1>도토리<br>이차함수 탐험대</h1>
+    </div>
+    <p class="sub">이차함수의 뜻부터 <b>그래프 그리기</b>, <b>식 세우기</b>까지<br>6단계 탐험으로 차근차근 정복해요!</p>
+    <div class="chips">
+      <span class="chip c1">🌰 맞히면 도토리</span>
+      <span class="chip c2">💯 10개면 칭찬도장</span>
+      <span class="chip c3">📈 움직이는 그래프</span>
+      <span class="chip c4">✏️ 직접 그리기</span>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="board">
+      <div class="eq"><i>y</i> = <i>a</i>(<i>x</i> − <i>p</i>)<sup>2</sup> + <i>q</i></div>
+      <svg id="plot" viewBox="0 0 390 330" width="390" height="330"></svg>
+      <div class="steps"><span>STEP 1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>STEP 6</span></div>
+    </div>
+    <svg class="stamp" viewBox="0 0 100 100" aria-hidden="true">
+      <g transform="rotate(-12 50 50)">
+        <circle cx="50" cy="50" r="45" fill="#fff5f3" stroke="#d9473f" stroke-width="5"/>
+        <circle cx="50" cy="50" r="38" fill="none" stroke="#d9473f" stroke-width="1.8"/>
+        <text x="50" y="29" text-anchor="middle" font-size="12" fill="#d9473f">★</text>
+        <text x="50" y="53" text-anchor="middle" font-family="Jua, sans-serif" font-size="22" fill="#d9473f">참 잘</text>
+        <text x="50" y="75" text-anchor="middle" font-family="Jua, sans-serif" font-size="19" fill="#d9473f">했어요!</text>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<script>
+  // 좌표평면 + 포물선 y = (x − 1)² − 3 (와 이동 전 y = x² 점선)
+  const W = 390, H = 330, xmin = -5, xmax = 6, ymin = -4.5, ymax = 5;
+  const X = x => (x - xmin) / (xmax - xmin) * W, Y = y => H - (y - ymin) / (ymax - ymin) * H;
+  let s = '';
+  for (let x = Math.ceil(xmin); x <= xmax; x++) s += `<line x1="${X(x)}" y1="0" x2="${X(x)}" y2="${H}" stroke="#f1e6d4"/>`;
+  for (let y = Math.ceil(ymin); y <= ymax; y++) s += `<line x1="0" y1="${Y(y)}" x2="${W}" y2="${Y(y)}" stroke="#f1e6d4"/>`;
+  s += `<line x1="0" y1="${Y(0)}" x2="${W}" y2="${Y(0)}" stroke="#6d4626" stroke-width="2"/><line x1="${X(0)}" y1="0" x2="${X(0)}" y2="${H}" stroke="#6d4626" stroke-width="2"/>`;
+  s += `<text x="${W - 8}" y="${Y(0) + 22}" text-anchor="end" font-family="KaTeX_Math, serif" font-style="italic" font-size="20" fill="#3a2617">x</text>`;
+  s += `<text x="${X(0) + 8}" y="18" font-family="KaTeX_Math, serif" font-style="italic" font-size="20" fill="#3a2617">y</text>`;
+  s += `<text x="${X(0) - 6}" y="${Y(0) + 20}" text-anchor="end" font-family="KaTeX_Math, serif" font-style="italic" font-size="18" fill="#3a2617">O</text>`;
+  const path = (f, a, b) => { let d = ''; for (let x = a; x <= b + 1e-9; x += .05) d += (d ? 'L' : 'M') + X(x).toFixed(1) + ' ' + Y(f(x)).toFixed(1); return d; };
+  s += `<path d="${path(x => x * x, -2.3, 2.3)}" fill="none" stroke="#d6c3ad" stroke-width="3" stroke-dasharray="8 6"/>`;
+  s += `<line x1="${X(1)}" y1="0" x2="${X(1)}" y2="${H}" stroke="#3fae63" stroke-width="2.5" stroke-dasharray="8 6"/>`;
+  s += `<path d="${path(x => (x - 1) ** 2 - 3, -1.9, 3.9)}" fill="none" stroke="#f9844a" stroke-width="5" stroke-linecap="round"/>`;
+  // 평행이동 화살표
+  s += `<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c8915a"/></marker></defs>`;
+  s += `<line x1="${X(0)}" y1="${Y(0)}" x2="${X(1) - 6}" y2="${Y(-3) - 14}" stroke="#c8915a" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#ah)"/>`;
+  s += `<circle cx="${X(1)}" cy="${Y(-3)}" r="8" fill="#e11d48" stroke="#fff" stroke-width="3"/>`;
+  s += `<text x="${X(1) + 14}" y="${Y(-3) + 6}" font-family="Noto Sans KR" font-weight="700" font-size="17" fill="#e11d48" paint-order="stroke" stroke="#fff" stroke-width="4">꼭짓점 (1, −3)</text>`;
+  document.getElementById('plot').innerHTML = s;
+</script>
+</body>
+</html>
